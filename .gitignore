@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# Node (혹시 추후 빌드 도구 도입 시)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# Env / Secrets
+.env
+.env.*
+!.env.example
+
+# Build output (혹시 추후)
+dist/
+build/
+.cache/
+
+# OS / 임시 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 작업용 임시 이미지 백업
+*.bak
+*.orig
+images/_archive/
+images/_tmp/
+
+# 개인 작업 메모
+todo.md
