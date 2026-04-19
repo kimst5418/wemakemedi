@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---- Header Scroll Behavior ---- */
   const header = document.getElementById('site-header');
-  const isHeroPage = document.querySelector('.hero') !== null;
+  const isHeroPage = document.querySelector('.hero, .page-hero') !== null;
 
   function updateHeader() {
     if (!header) return;
