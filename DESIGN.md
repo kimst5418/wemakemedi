@@ -151,31 +151,31 @@
 images/
 ├── space/
 │   ├── waiting-room.webp        (대기실 — 슬라이더 1)
-│   ├── treatment-room.png       (진료실 — 슬라이더 2 / 메인)
-│   ├── corridor-1.png           (복도 — 슬라이더 3)
-│   ├── corridor-2.png           (복도 — 인트로 섹션)
-│   ├── consultation-1.png       (상담실 메인)
-│   ├── consultation-monitor.png (상담실 디지털 모니터)
-│   └── consultation-detail.png  (상담실 디테일)
+│   ├── treatment-room.webp       (진료실 — 슬라이더 2 / 메인)
+│   ├── corridor-1.webp           (복도 — 슬라이더 3)
+│   ├── corridor-2.webp           (복도 — 인트로 섹션)
+│   ├── consultation-1.webp       (상담실 메인)
+│   ├── consultation-monitor.webp (상담실 디지털 모니터)
+│   └── consultation-detail.webp  (상담실 디테일)
 ├── doctors/
-│   ├── dr-kim.png               (대표원장 김유진 — 보철·임플란트)
-│   ├── dr-lee.png               (부원장 이수아 — 교정)
-│   └── dr-park.png               (진료원장 박진혁 — 소아)
+│   ├── dr-kim.webp               (대표원장 김유진 — 보철·임플란트)
+│   ├── dr-lee.webp               (부원장 이수아 — 교정)
+│   └── dr-park.webp               (진료원장 박진혁 — 소아)
 ├── equipment/
-│   ├── cbct.png                 (3D CBCT)
-│   ├── intraoral-scanner.png    (디지털 구강 스캐너)
-│   ├── microscope.png           (치과용 현미경)
-│   ├── surgical-guide.png       (디지털 임플란트 수술 가이드)
-│   ├── laser.png                (치과용 레이저)
-│   ├── autoclave.png            (Class B 멸균기)
-│   └── anesthesia.png           (전동 마취 시스템)
+│   ├── cbct.webp                 (3D CBCT)
+│   ├── intraoral-scanner.webp    (디지털 구강 스캐너)
+│   ├── microscope.webp           (치과용 현미경)
+│   ├── surgical-guide.webp       (디지털 임플란트 수술 가이드)
+│   ├── laser.webp                (치과용 레이저)
+│   ├── autoclave.webp            (Class B 멸균기)
+│   └── anesthesia.webp           (전동 마취 시스템)
 ├── services/
-│   ├── general.png              (일반치과 도구 셋업)
-│   ├── orthodontics.png         (인비절라인)
-│   ├── cosmetic.png             (셰이드 가이드 / 라미네이트)
-│   └── pediatric.png            (소아치과 어린이용 still life)
+│   ├── general.webp              (일반치과 도구 셋업)
+│   ├── orthodontics.webp         (인비절라인)
+│   ├── cosmetic.webp             (셰이드 가이드 / 라미네이트)
+│   └── pediatric.webp            (소아치과 어린이용 still life)
 └── about/
-    └── clinic-exterior-tall.png (병원 외관 — LUCE DENTAL 사이니지 포함)
+    └── clinic-exterior-tall.webp (병원 외관 — LUCE DENTAL 사이니지 포함)
 ```
 
 > 모든 placeholder는 실제 이미지로 교체 완료.
@@ -222,7 +222,7 @@ images/
 ## 8. 남은 작업
 
 ### 우선순위 이미지
-모든 placeholder 적용 완료. 외관은 `about/clinic-exterior-tall.png` 1장으로 통일 (about.html 연혁 섹션). space.html에서는 외관 섹션 제거.
+모든 placeholder 적용 완료. 외관은 `about/clinic-exterior-tall.webp` 1장으로 통일 (about.html 연혁 섹션). space.html에서는 외관 섹션 제거.
 
 ### 향후 확장 가능
 - 실제 카카오맵/네이버맵 API 연동 (현재 텍스트 placeholder)
