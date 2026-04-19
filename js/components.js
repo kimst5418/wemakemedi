@@ -14,7 +14,7 @@ const HEADER_HTML = `
         <li><a href="about.html">병원소개</a></li>
         <li><a href="doctors.html">의료진</a></li>
         <li class="nav-item--dropdown">
-          <a href="services.html">진료안내</a>
+          <a href="services.html">진료안내<span class="dropdown-arrow" aria-hidden="true">▾</span></a>
           <ul class="dropdown">
             <li><a href="service-general.html">일반치과</a></li>
             <li><a href="service-orthodontics.html">교정치과</a></li>
@@ -129,8 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentPath = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-list a, .mobile-nav-list a').forEach(link => {
     const href = link.getAttribute('href');
-    if (href === currentPath) {
-      link.style.color = 'var(--accent)';
+    if (href === currentPath && !link.classList.contains('nav-btn-reserve')) {
+      link.classList.add('is-active');
     }
   });
 });
