@@ -98,14 +98,14 @@ const FOOTER_HTML = `
           <li><a href="hours.html">진료시간/오시는길</a></li>
           <li><a href="contact.html">상담예약</a></li>
         </ul>
-        <div style="margin-top:2rem;">
-          <p class="footer-nav-title">연락처</p>
-          <div class="footer-info">
-            <p><strong>Tel.</strong> 02-555-2580</p>
-            <p><strong>Fax.</strong> 02-555-2581</p>
-            <p><strong>Email.</strong> info@lucedental.kr</p>
-            <p style="margin-top:0.5rem;">서울 강남구 테헤란로 152<br>루체빌딩 2층</p>
-          </div>
+      </div>
+      <div>
+        <p class="footer-nav-title">연락처</p>
+        <div class="footer-info">
+          <p><strong>Tel.</strong> 02-555-2580</p>
+          <p><strong>Fax.</strong> 02-555-2581</p>
+          <p><strong>Email.</strong> info@lucedental.kr</p>
+          <p style="margin-top:0.5rem;">서울 강남구 테헤란로 152<br>루체빌딩 2층</p>
         </div>
       </div>
     </div>
